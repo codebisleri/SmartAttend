@@ -1,0 +1,63 @@
+.leaves-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.text-sm {
+  font-size: 0.85rem;
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.reason-cell {
+  max-width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.badge-pending {
+  background-color: rgba(245, 158, 11, 0.2);
+  color: var(--warning);
+}
+
+.badge-approved {
+  background-color: rgba(16, 185, 129, 0.2);
+  color: var(--success);
+}
+
+.badge-rejected {
+  background-color: rgba(239, 68, 68, 0.2);
+  color: var(--danger);
+}
+
+.badge-type {
+  background-color: rgba(99, 102, 241, 0.2);
+  color: var(--accent-color);
+}
+
+.action-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.approve-btn {
+  color: var(--text-secondary);
+}
+
+.approve-btn:hover {
+  background-color: rgba(16, 185, 129, 0.15);
+  color: var(--success);
+}
+
+.reject-btn {
+  color: var(--text-secondary);
+}
+
+.reject-btn:hover {
+  background-color: rgba(239, 68, 68, 0.15);
+  color: var(--danger);
+}
